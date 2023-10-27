@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --second-color: #ffd700;
+    --main-color: #000000;
+    --switch-bg-url: url(fotos/moon-stars.svg);
+}
+
+
+
+body {
+    width: 100%;
+    height: 100%;
+    background-color: var(--main-color);
+    font-family: 'Sofia Sans Condensed', sans-serif;
+}
+
+#container {
+    width: 360px;    
+    margin: 56px auto 0px;
+    padding: 0 24px;
+    box-shadow: 8px 5px 30px black;
+    border: 1px solid var(--second-color);
+}
+#profile {
+    display: flex;
+    text-align: center;
+    padding: 24px;
+
+}
+#profile img{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px auto;
+    border-radius: 100%;
+    border: 1px solid var(--second-color);
+    box-shadow: 1px 3px 4px var(--second-color);
+}
+
+
+
+.title h1 {
+    color: var(--second-color);
+    text-align: center;
+    margin: 4px auto;
+    font-size: 400;
+    }
+
+    .title p {
+        color: white;
+        text-align: center;
+        line-height: 3px;
+    }
+
+    .listas {
+        display: flex;
+        text-align: center;
+        color: white;
+    }
+
+    ul {
+        color: white;
+        text-align: center;
+        margin: 10px ;
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        gap: 12px; 
+        padding: 24px 0;
+        align-items: center;
+        
+        
+    }
+
+    li {
+
+        width: 100%;
+    }
+
+    ul li a {
+        display: flex;
+        align-items: center;
+        justify-content: center; 
+        padding: 10px 24px;  
+        color: var(--second-color);
+        background: var(--main-color);
+        border: 1px solid var(--second-color);
+        border-radius: 8px;
+        text-decoration: none;
+        font-weight: 500;
+        box-shadow: 3px 4px 4px rgba(0, 0, 0, 0.429);
+
+    }
+
+    ul li a:hover {
+        color: var(--main-color);
+        background: var(--second-color);
+        border: 1px solid var(--second-color); 
+    }
+
+    #social-links {
+        display: flex;
+        justify-content: center;
+        
+        padding: 5px 0;
+        font-size: 24px;
+    }
+    
+    #social-links a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 16px;
+        color: var(--second-color);
+        border-radius: 50%;
+        font-size: 0.6em;
+        text-decoration: none;
+        transition: transform 0.3s;
+    }
+    
+    #social-links a:hover {
+       transform: scale(1.1);
+    }
+
+    .cidade{
+        color: #ffffff;
+        text-align: center;
+        margin-top: 13px;
+        font-size: 0.9em;  
+    }
+
+    .icons {
+        position: absolute;
+        left: 25%;
+    
+    }
+
+    footer {
+        padding: 24px 0; 
+        text-align: center;
+    }
+
+   
+
+
+
